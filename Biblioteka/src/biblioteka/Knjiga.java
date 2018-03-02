@@ -1,9 +1,16 @@
-
+package biblioteka;
 public class Knjiga {
 		
-		private String naslov, isbn, izdavac, autori;
+		private String naslov, isbn, izdavac;
 		private int izdanje;
+		private Autor[] autori;
 				
+		public Autor[] getAutori() {
+			return autori;
+		}
+		public void setAutori(Autor[] autori) {
+			this.autori = autori;
+		}
 		public String getNaslov() {
 			return naslov;
 		}
@@ -22,17 +29,12 @@ public class Knjiga {
 		public void setIzdavac(String izdavac) {
 			this.izdavac = izdavac;
 		}
-		public String getAutori() {
-			return autori;
-		}
-		public void setAutori(String autori) {
-			this.autori = autori;
-		}
+
 		public int getIzdanje() {
 			return izdanje;
 		}
 		public void setIzdanje(int izdanje) {
 			this.izdanje = izdanje;
 		}	
-		
+
 }
