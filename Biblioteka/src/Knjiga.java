@@ -33,8 +33,6 @@ public class Knjiga {
 		}
 		public void setIzdanje(int izdanje) {
 			this.izdanje = izdanje;
-		}
+		}	
 		
-		
-	
 }
